@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import BubbleSort from "./Sorting/BuubleSort";
 function App() {
+  let ar = [2, 6, 2, 3, 1, 5, 4, 8, 9, 3, 4, 6, 8, 7, 2, 10];
+  console.log(ar);
+  console.log(BubbleSort(ar));
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello World</h1>
     </div>
   );
 }
